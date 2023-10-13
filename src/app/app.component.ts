@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'T-9-FE_PIV';
+  showForm: boolean = false;
+  showTable: boolean = false;
+  mascotas: any = []
+  GuardarMascota($event:Object){
+
+  }
 }
